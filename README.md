@@ -1,57 +1,70 @@
-Quiz App
-This is a modern Quiz App built using React, offering an engaging quiz experience. The app features a cool dark aesthetic theme with smooth animations and interactive elements.
+# Getting Started with Create React App
 
-Features
-Dynamic Quiz: Fetches quiz questions from an API endpoint.
-Interactive UI: Buttons with hover effects and modern styling.
-Frosted Glass Effect: The quiz container has a frosted glass background for a sleek appearance.
-Responsive Design: Fully responsive and adaptive layout for various screen sizes.
-Score Tracking: Displays real-time score updates as the user progresses through the quiz.
-Completion Screen: After completing the quiz, the user's final score is shown with an option to restart.
-Technologies Used
-React: Frontend library for building the user interface.
-CSS: Styling the app with custom, modern design.
-JavaScript: Core logic for interactivity.
-API Integration: Fetching quiz questions dynamically from an API.
-Installation
-To get started with the project locally, follow these steps:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Prerequisites
-Make sure you have Node.js and npm installed. If not, download and install them from the official Node.js website: https://nodejs.org/
+## Available Scripts
 
-1. Clone the repository
-git clone https://github.com/your-username/quiz-app.git
+In the project directory, you can run:
 
-2. Install dependencies
-Navigate into the project directory and install the dependencies.
-cd quiz-app
-npm install
+### `npm start`
 
-3. Run the app
-Start the development server to view the app in your browser.
-npm start
-This will run the app on http://localhost:3000 by default.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-4. API (Backend)
-If you want to test it locally, ensure that you have the API running at http://localhost:5000/quiz (or adjust the endpoint accordingly in the code). You can set up a simple API using any backend framework or fetch quiz data from a public API.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-How It Works
-1.Start Screen: The user is welcomed and can click the "Start Quiz" button to begin the quiz.
-2.Quiz Questions: Questions are fetched from the API and displayed one by one with multiple choice options.
-3.Answering Questions: The user selects an answer, and their score is updated based on correct answers.
-4.Completion: Once all questions are answered, the final score is shown. The user can restart the quiz.
+### `npm test`
 
-Contributing
-Feel free to fork this project and submit pull requests with any improvements, bug fixes, or new features.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add feature').
-Push to the branch (git push origin feature-branch).
-Create a pull request.
-License
-This project is open-source and available under the MIT License.
+### `npm run build`
 
-Contact
-For any questions, feel free to contact me at pratikraj590@gmail.com.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
